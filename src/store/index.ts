@@ -16,7 +16,7 @@ import type { ReviewRecord } from '@/utils/db/record'
 import { atom } from 'jotai'
 import { atomWithStorage } from 'jotai/utils'
 
-export const currentDictIdAtom = atomWithStorage('currentDict', 'Oxford3000') // MOBEI: default to the Oxford 3000 core list (same as Words)
+export const currentDictIdAtom = atomWithStorage('currentDict', 'mobei-words-a1') // MOBEI: new visitors start on the Words A1 list
 export const currentDictInfoAtom = atom<Dictionary>((get) => {
   const id = get(currentDictIdAtom)
   let dict = idDictionaryMap[id]

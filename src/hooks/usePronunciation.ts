@@ -60,6 +60,10 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     () => speakFallback(word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume),
     [word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume],
   )
+  // Read through a ref so the listener effect below keeps depending on `sound` only
+  // (its cleanup unloads the sound, so it must not re-run on volume/rate changes).
+  const fallbackRef = useRef(fallback)
+  fallbackRef.current = fallback
 
   useEffect(() => {
     if (!sound) return
@@ -78,7 +82,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       addHowlListener(sound, 'playerror', () => {
         setIsPlaying(false)
         audioFailedRef.current = true
-        fallback()
+        fallbackRef.current()
       }),
     )
 
@@ -87,7 +91,7 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
       unListens.forEach((unListen) => unListen())
       ;(sound as Howl).unload()
     }
-  }, [sound, fallback])
+  }, [sound])
 
   const playWithFallback = useCallback(
     (...args: Parameters<typeof play>) => {

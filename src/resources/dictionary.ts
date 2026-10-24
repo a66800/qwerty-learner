@@ -1,3 +1,4 @@
+import { mobeiWordsDicts } from '@/mobei/mobeiDicts'
 import type { Dictionary, DictionaryResource } from '@/typings/index'
 import { calcChapterCount } from '@/utils'
 
@@ -4160,6 +4161,8 @@ const indonesianDicts: DictionaryResource[] = [
  * Why arrays? Because it keeps the order across browsers.
  */
 export const dictionaryResources: DictionaryResource[] = [
+  // MOBEI: Words word lists first, so "MOBEI Words" leads the gallery
+  ...mobeiWordsDicts,
   ...chinaExam,
   ...internationalExam,
   ...childrenEnglish,

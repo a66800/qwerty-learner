@@ -1,0 +1,2194 @@
+[
+ {
+  "name": "United States",
+  "trans": [
+   "美国；国家名"
+  ],
+  "usphone": "juˌnaɪtəd ˈsteɪts",
+  "ukphone": "juˌnaɪtəd ˈsteɪts"
+ },
+ {
+  "name": "Canada",
+  "trans": [
+   "加拿大；国家名"
+  ],
+  "usphone": "ˈkænədə",
+  "ukphone": "ˈkænədə"
+ },
+ {
+  "name": "Mexico",
+  "trans": [
+   "墨西哥；国家名"
+  ],
+  "usphone": "ˈmɛksɪkoʊ",
+  "ukphone": "ˈmɛksɪkoʊ"
+ },
+ {
+  "name": "China",
+  "trans": [
+   "中国；国家名"
+  ],
+  "usphone": "ˈtʃaɪnə",
+  "ukphone": "ˈtʃaɪnə"
+ },
+ {
+  "name": "Japan",
+  "trans": [
+   "日本；国家名"
+  ],
+  "usphone": "dʒəˈpæn",
+  "ukphone": "dʒəˈpæn"
+ },
+ {
+  "name": "South Korea",
+  "trans": [
+   "韩国；国家名"
+  ],
+  "usphone": "saʊθ kəˈriə",
+  "ukphone": "saʊθ kəˈriə"
+ },
+ {
+  "name": "India",
+  "trans": [
+   "印度；国家名"
+  ],
+  "usphone": "ˈɪndiə",
+  "ukphone": "ˈɪndiə"
+ },
+ {
+  "name": "United Kingdom",
+  "trans": [
+   "英国；国家名"
+  ],
+  "usphone": "juˌnaɪtəd ˈkɪŋdəm",
+  "ukphone": "juˌnaɪtəd ˈkɪŋdəm"
+ },
+ {
+  "name": "France",
+  "trans": [
+   "法国；国家名"
+  ],
+  "usphone": "fræns",
+  "ukphone": "fræns"
+ },
+ {
+  "name": "Germany",
+  "trans": [
+   "德国；国家名"
+  ],
+  "usphone": "ˈdʒɜrməni",
+  "ukphone": "ˈdʒɜrməni"
+ },
+ {
+  "name": "Spain",
+  "trans": [
+   "西班牙；国家名"
+  ],
+  "usphone": "speɪn",
+  "ukphone": "speɪn"
+ },
+ {
+  "name": "Italy",
+  "trans": [
+   "意大利；国家名"
+  ],
+  "usphone": "ˈɪtəli",
+  "ukphone": "ˈɪtəli"
+ },
+ {
+  "name": "Australia",
+  "trans": [
+   "澳大利亚；国家名"
+  ],
+  "usphone": "ɔˈstreɪljə",
+  "ukphone": "ɔˈstreɪljə"
+ },
+ {
+  "name": "Brazil",
+  "trans": [
+   "巴西；国家名"
+  ],
+  "usphone": "brəˈzɪl",
+  "ukphone": "brəˈzɪl"
+ },
+ {
+  "name": "Russia",
+  "trans": [
+   "俄罗斯；国家名"
+  ],
+  "usphone": "ˈrʌʃə",
+  "ukphone": "ˈrʌʃə"
+ },
+ {
+  "name": "American",
+  "trans": [
+   "美国人；美国的"
+  ],
+  "usphone": "əˈmɛrɪkən",
+  "ukphone": "əˈmɛrɪkən"
+ },
+ {
+  "name": "Canadian",
+  "trans": [
+   "加拿大人；加拿大的"
+  ],
+  "usphone": "kəˈneɪdiən",
+  "ukphone": "kəˈneɪdiən"
+ },
+ {
+  "name": "Mexican",
+  "trans": [
+   "墨西哥人；墨西哥的"
+  ],
+  "usphone": "ˈmɛksɪkən",
+  "ukphone": "ˈmɛksɪkən"
+ },
+ {
+  "name": "Chinese",
+  "trans": [
+   "中国人；中国的；Chinese（语言）"
+  ],
+  "usphone": "tʃaɪˈniz",
+  "ukphone": "tʃaɪˈniz"
+ },
+ {
+  "name": "Japanese",
+  "trans": [
+   "日本人；日本的；Japanese（语言）"
+  ],
+  "usphone": "ˌdʒæpəˈniz",
+  "ukphone": "ˌdʒæpəˈniz"
+ },
+ {
+  "name": "Korean",
+  "trans": [
+   "韩国人；韩国的；Korean（语言）"
+  ],
+  "usphone": "kəˈriən",
+  "ukphone": "kəˈriən"
+ },
+ {
+  "name": "Indian",
+  "trans": [
+   "印度人；印度的"
+  ],
+  "usphone": "ˈɪndiən",
+  "ukphone": "ˈɪndiən"
+ },
+ {
+  "name": "British",
+  "trans": [
+   "英国人；英国的"
+  ],
+  "usphone": "ˈbrɪtɪʃ",
+  "ukphone": "ˈbrɪtɪʃ"
+ },
+ {
+  "name": "French",
+  "trans": [
+   "法国人；法国的；French（语言）"
+  ],
+  "usphone": "frɛntʃ",
+  "ukphone": "frɛntʃ"
+ },
+ {
+  "name": "German",
+  "trans": [
+   "德国人；德国的；German（语言）"
+  ],
+  "usphone": "ˈdʒɜrmən",
+  "ukphone": "ˈdʒɜrmən"
+ },
+ {
+  "name": "Spanish",
+  "trans": [
+   "西班牙人；西班牙的；Spanish（语言）"
+  ],
+  "usphone": "ˈspænɪʃ",
+  "ukphone": "ˈspænɪʃ"
+ },
+ {
+  "name": "Italian",
+  "trans": [
+   "意大利人；意大利的；Italian（语言）"
+  ],
+  "usphone": "ɪˈtæljən",
+  "ukphone": "ɪˈtæljən"
+ },
+ {
+  "name": "Australian",
+  "trans": [
+   "澳大利亚人；澳大利亚的"
+  ],
+  "usphone": "ɔˈstreɪliən",
+  "ukphone": "ɔˈstreɪliən"
+ },
+ {
+  "name": "Brazilian",
+  "trans": [
+   "巴西人；巴西的"
+  ],
+  "usphone": "brəˈzɪljən",
+  "ukphone": "brəˈzɪljən"
+ },
+ {
+  "name": "Russian",
+  "trans": [
+   "俄罗斯人；俄罗斯的；Russian（语言）"
+  ],
+  "usphone": "ˈrʌʃən",
+  "ukphone": "ˈrʌʃən"
+ },
+ {
+  "name": "Alabama",
+  "trans": [
+   "阿拉巴马州；美国州名（邮政缩写 AL）"
+  ],
+  "usphone": "ˌæləˈbæmə",
+  "ukphone": "ˌæləˈbæmə"
+ },
+ {
+  "name": "Alaska",
+  "trans": [
+   "阿拉斯加州；美国州名（邮政缩写 AK）"
+  ],
+  "usphone": "əˈlæskə",
+  "ukphone": "əˈlæskə"
+ },
+ {
+  "name": "Arizona",
+  "trans": [
+   "亚利桑那州；美国州名（邮政缩写 AZ）"
+  ],
+  "usphone": "ˌærɪˈzoʊnə",
+  "ukphone": "ˌærɪˈzoʊnə"
+ },
+ {
+  "name": "Arkansas",
+  "trans": [
+   "阿肯色州；美国州名（邮政缩写 AR）"
+  ],
+  "usphone": "ˈɑrkənsɔ",
+  "ukphone": "ˈɑrkənsɔ"
+ },
+ {
+  "name": "California",
+  "trans": [
+   "加利福尼亚州；美国州名（邮政缩写 CA）"
+  ],
+  "usphone": "ˌkælɪˈfɔrnjə",
+  "ukphone": "ˌkælɪˈfɔrnjə"
+ },
+ {
+  "name": "Colorado",
+  "trans": [
+   "科罗拉多州；美国州名（邮政缩写 CO）"
+  ],
+  "usphone": "ˌkɑləˈrædoʊ",
+  "ukphone": "ˌkɑləˈrædoʊ"
+ },
+ {
+  "name": "Connecticut",
+  "trans": [
+   "康涅狄格州；美国州名（邮政缩写 CT）"
+  ],
+  "usphone": "kəˈnɛtɪkət",
+  "ukphone": "kəˈnɛtɪkət"
+ },
+ {
+  "name": "Delaware",
+  "trans": [
+   "特拉华州；美国州名（邮政缩写 DE）"
+  ],
+  "usphone": "ˈdɛləwɛr",
+  "ukphone": "ˈdɛləwɛr"
+ },
+ {
+  "name": "Florida",
+  "trans": [
+   "佛罗里达州；美国州名（邮政缩写 FL）"
+  ],
+  "usphone": "ˈflɔrɪdə",
+  "ukphone": "ˈflɔrɪdə"
+ },
+ {
+  "name": "Georgia",
+  "trans": [
+   "佐治亚州；美国州名（邮政缩写 GA）"
+  ],
+  "usphone": "ˈdʒɔrdʒə",
+  "ukphone": "ˈdʒɔrdʒə"
+ },
+ {
+  "name": "Hawaii",
+  "trans": [
+   "夏威夷州；美国州名（邮政缩写 HI）"
+  ],
+  "usphone": "həˈwaɪi",
+  "ukphone": "həˈwaɪi"
+ },
+ {
+  "name": "Idaho",
+  "trans": [
+   "爱达荷州；美国州名（邮政缩写 ID）"
+  ],
+  "usphone": "ˈaɪdəhoʊ",
+  "ukphone": "ˈaɪdəhoʊ"
+ },
+ {
+  "name": "Illinois",
+  "trans": [
+   "伊利诺伊州；美国州名（邮政缩写 IL）"
+  ],
+  "usphone": "ˌɪləˈnɔɪ",
+  "ukphone": "ˌɪləˈnɔɪ"
+ },
+ {
+  "name": "Indiana",
+  "trans": [
+   "印第安纳州；美国州名（邮政缩写 IN）"
+  ],
+  "usphone": "ˌɪndiˈænə",
+  "ukphone": "ˌɪndiˈænə"
+ },
+ {
+  "name": "Iowa",
+  "trans": [
+   "爱荷华州；美国州名（邮政缩写 IA）"
+  ],
+  "usphone": "ˈaɪəwə",
+  "ukphone": "ˈaɪəwə"
+ },
+ {
+  "name": "Kansas",
+  "trans": [
+   "堪萨斯州；美国州名（邮政缩写 KS）"
+  ],
+  "usphone": "ˈkænzəs",
+  "ukphone": "ˈkænzəs"
+ },
+ {
+  "name": "Kentucky",
+  "trans": [
+   "肯塔基州；美国州名（邮政缩写 KY）"
+  ],
+  "usphone": "kənˈtʌki",
+  "ukphone": "kənˈtʌki"
+ },
+ {
+  "name": "Louisiana",
+  "trans": [
+   "路易斯安那州；美国州名（邮政缩写 LA）"
+  ],
+  "usphone": "luˌiziˈænə",
+  "ukphone": "luˌiziˈænə"
+ },
+ {
+  "name": "Maine",
+  "trans": [
+   "缅因州；美国州名（邮政缩写 ME）"
+  ],
+  "usphone": "meɪn",
+  "ukphone": "meɪn"
+ },
+ {
+  "name": "Maryland",
+  "trans": [
+   "马里兰州；美国州名（邮政缩写 MD）"
+  ],
+  "usphone": "ˈmɛrələnd",
+  "ukphone": "ˈmɛrələnd"
+ },
+ {
+  "name": "Massachusetts",
+  "trans": [
+   "马萨诸塞州；美国州名（邮政缩写 MA）"
+  ],
+  "usphone": "ˌmæsəˈtʃusɪts",
+  "ukphone": "ˌmæsəˈtʃusɪts"
+ },
+ {
+  "name": "Michigan",
+  "trans": [
+   "密歇根州；美国州名（邮政缩写 MI）"
+  ],
+  "usphone": "ˈmɪʃɪɡən",
+  "ukphone": "ˈmɪʃɪɡən"
+ },
+ {
+  "name": "Minnesota",
+  "trans": [
+   "明尼苏达州；美国州名（邮政缩写 MN）"
+  ],
+  "usphone": "ˌmɪnəˈsoʊtə",
+  "ukphone": "ˌmɪnəˈsoʊtə"
+ },
+ {
+  "name": "Mississippi",
+  "trans": [
+   "密西西比州；美国州名（邮政缩写 MS）"
+  ],
+  "usphone": "ˌmɪsɪˈsɪpi",
+  "ukphone": "ˌmɪsɪˈsɪpi"
+ },
+ {
+  "name": "Missouri",
+  "trans": [
+   "密苏里州；美国州名（邮政缩写 MO）"
+  ],
+  "usphone": "mɪˈzʊri",
+  "ukphone": "mɪˈzʊri"
+ },
+ {
+  "name": "Montana",
+  "trans": [
+   "蒙大拿州；美国州名（邮政缩写 MT）"
+  ],
+  "usphone": "mɑnˈtænə",
+  "ukphone": "mɑnˈtænə"
+ },
+ {
+  "name": "Nebraska",
+  "trans": [
+   "内布拉斯加州；美国州名（邮政缩写 NE）"
+  ],
+  "usphone": "nəˈbræskə",
+  "ukphone": "nəˈbræskə"
+ },
+ {
+  "name": "Nevada",
+  "trans": [
+   "内华达州；美国州名（邮政缩写 NV）"
+  ],
+  "usphone": "nəˈvædə",
+  "ukphone": "nəˈvædə"
+ },
+ {
+  "name": "New Hampshire",
+  "trans": [
+   "新罕布什尔州；美国州名（邮政缩写 NH）"
+  ],
+  "usphone": "nu ˈhæmpʃər",
+  "ukphone": "nu ˈhæmpʃər"
+ },
+ {
+  "name": "New Jersey",
+  "trans": [
+   "新泽西州；美国州名（邮政缩写 NJ）"
+  ],
+  "usphone": "nu ˈdʒɜrzi",
+  "ukphone": "nu ˈdʒɜrzi"
+ },
+ {
+  "name": "New Mexico",
+  "trans": [
+   "新墨西哥州；美国州名（邮政缩写 NM）"
+  ],
+  "usphone": "nu ˈmɛksɪkoʊ",
+  "ukphone": "nu ˈmɛksɪkoʊ"
+ },
+ {
+  "name": "New York",
+  "trans": [
+   "纽约州；美国州名（邮政缩写 NY）"
+  ],
+  "usphone": "nu ˈjɔrk",
+  "ukphone": "nu ˈjɔrk"
+ },
+ {
+  "name": "North Carolina",
+  "trans": [
+   "北卡罗来纳州；美国州名（邮政缩写 NC）"
+  ],
+  "usphone": "nɔrθ ˌkærəˈlaɪnə",
+  "ukphone": "nɔrθ ˌkærəˈlaɪnə"
+ },
+ {
+  "name": "North Dakota",
+  "trans": [
+   "北达科他州；美国州名（邮政缩写 ND）"
+  ],
+  "usphone": "nɔrθ dəˈkoʊtə",
+  "ukphone": "nɔrθ dəˈkoʊtə"
+ },
+ {
+  "name": "Ohio",
+  "trans": [
+   "俄亥俄州；美国州名（邮政缩写 OH）"
+  ],
+  "usphone": "oʊˈhaɪoʊ",
+  "ukphone": "oʊˈhaɪoʊ"
+ },
+ {
+  "name": "Oklahoma",
+  "trans": [
+   "俄克拉何马州；美国州名（邮政缩写 OK）"
+  ],
+  "usphone": "ˌoʊkləˈhoʊmə",
+  "ukphone": "ˌoʊkləˈhoʊmə"
+ },
+ {
+  "name": "Oregon",
+  "trans": [
+   "俄勒冈州；美国州名（邮政缩写 OR）"
+  ],
+  "usphone": "ˈɔrɪɡən",
+  "ukphone": "ˈɔrɪɡən"
+ },
+ {
+  "name": "Pennsylvania",
+  "trans": [
+   "宾夕法尼亚州；美国州名（邮政缩写 PA）"
+  ],
+  "usphone": "ˌpɛnsəlˈveɪnjə",
+  "ukphone": "ˌpɛnsəlˈveɪnjə"
+ },
+ {
+  "name": "Rhode Island",
+  "trans": [
+   "罗得岛州；美国州名（邮政缩写 RI）"
+  ],
+  "usphone": "roʊd ˈaɪlənd",
+  "ukphone": "roʊd ˈaɪlənd"
+ },
+ {
+  "name": "South Carolina",
+  "trans": [
+   "南卡罗来纳州；美国州名（邮政缩写 SC）"
+  ],
+  "usphone": "saʊθ ˌkærəˈlaɪnə",
+  "ukphone": "saʊθ ˌkærəˈlaɪnə"
+ },
+ {
+  "name": "South Dakota",
+  "trans": [
+   "南达科他州；美国州名（邮政缩写 SD）"
+  ],
+  "usphone": "saʊθ dəˈkoʊtə",
+  "ukphone": "saʊθ dəˈkoʊtə"
+ },
+ {
+  "name": "Tennessee",
+  "trans": [
+   "田纳西州；美国州名（邮政缩写 TN）"
+  ],
+  "usphone": "ˌtɛnəˈsi",
+  "ukphone": "ˌtɛnəˈsi"
+ },
+ {
+  "name": "Texas",
+  "trans": [
+   "得克萨斯州；美国州名（邮政缩写 TX）"
+  ],
+  "usphone": "ˈtɛksəs",
+  "ukphone": "ˈtɛksəs"
+ },
+ {
+  "name": "Utah",
+  "trans": [
+   "犹他州；美国州名（邮政缩写 UT）"
+  ],
+  "usphone": "ˈjutɑ",
+  "ukphone": "ˈjutɑ"
+ },
+ {
+  "name": "Vermont",
+  "trans": [
+   "佛蒙特州；美国州名（邮政缩写 VT）"
+  ],
+  "usphone": "vərˈmɑnt",
+  "ukphone": "vərˈmɑnt"
+ },
+ {
+  "name": "Virginia",
+  "trans": [
+   "弗吉尼亚州；美国州名（邮政缩写 VA）"
+  ],
+  "usphone": "vərˈdʒɪnjə",
+  "ukphone": "vərˈdʒɪnjə"
+ },
+ {
+  "name": "Washington",
+  "trans": [
+   "华盛顿州；美国州名（邮政缩写 WA）"
+  ],
+  "usphone": "ˈwɑʃɪŋtən",
+  "ukphone": "ˈwɑʃɪŋtən"
+ },
+ {
+  "name": "West Virginia",
+  "trans": [
+   "西弗吉尼亚州；美国州名（邮政缩写 WV）"
+  ],
+  "usphone": "wɛst vərˈdʒɪnjə",
+  "ukphone": "wɛst vərˈdʒɪnjə"
+ },
+ {
+  "name": "Wisconsin",
+  "trans": [
+   "威斯康星州；美国州名（邮政缩写 WI）"
+  ],
+  "usphone": "wɪˈskɑnsɪn",
+  "ukphone": "wɪˈskɑnsɪn"
+ },
+ {
+  "name": "Wyoming",
+  "trans": [
+   "怀俄明州；美国州名（邮政缩写 WY）"
+  ],
+  "usphone": "waɪˈoʊmɪŋ",
+  "ukphone": "waɪˈoʊmɪŋ"
+ },
+ {
+  "name": "New York City",
+  "trans": [
+   "纽约市；美国常见城市名"
+  ],
+  "usphone": "nu jɔrk ˈsɪti",
+  "ukphone": "nu jɔrk ˈsɪti"
+ },
+ {
+  "name": "Los Angeles",
+  "trans": [
+   "洛杉矶；美国常见城市名"
+  ],
+  "usphone": "lɔs ˈændʒələs",
+  "ukphone": "lɔs ˈændʒələs"
+ },
+ {
+  "name": "Chicago",
+  "trans": [
+   "芝加哥；美国常见城市名"
+  ],
+  "usphone": "ʃɪˈkɑɡoʊ",
+  "ukphone": "ʃɪˈkɑɡoʊ"
+ },
+ {
+  "name": "Houston",
+  "trans": [
+   "休斯敦；美国常见城市名"
+  ],
+  "usphone": "ˈhjustən",
+  "ukphone": "ˈhjustən"
+ },
+ {
+  "name": "Phoenix",
+  "trans": [
+   "菲尼克斯；美国常见城市名"
+  ],
+  "usphone": "ˈfinɪks",
+  "ukphone": "ˈfinɪks"
+ },
+ {
+  "name": "Philadelphia",
+  "trans": [
+   "费城；美国常见城市名"
+  ],
+  "usphone": "ˌfɪləˈdɛlfiə",
+  "ukphone": "ˌfɪləˈdɛlfiə"
+ },
+ {
+  "name": "San Antonio",
+  "trans": [
+   "圣安东尼奥；美国常见城市名"
+  ],
+  "usphone": "ˌsæn ænˈtoʊnioʊ",
+  "ukphone": "ˌsæn ænˈtoʊnioʊ"
+ },
+ {
+  "name": "San Diego",
+  "trans": [
+   "圣迭戈；美国常见城市名"
+  ],
+  "usphone": "ˌsæn diˈeɪɡoʊ",
+  "ukphone": "ˌsæn diˈeɪɡoʊ"
+ },
+ {
+  "name": "Dallas",
+  "trans": [
+   "达拉斯；美国常见城市名"
+  ],
+  "usphone": "ˈdæləs",
+  "ukphone": "ˈdæləs"
+ },
+ {
+  "name": "Austin",
+  "trans": [
+   "奥斯汀；美国常见城市名"
+  ],
+  "usphone": "ˈɔstɪn",
+  "ukphone": "ˈɔstɪn"
+ },
+ {
+  "name": "Miami",
+  "trans": [
+   "迈阿密；美国常见城市名"
+  ],
+  "usphone": "maɪˈæmi",
+  "ukphone": "maɪˈæmi"
+ },
+ {
+  "name": "Atlanta",
+  "trans": [
+   "亚特兰大；美国常见城市名"
+  ],
+  "usphone": "ətˈlæntə",
+  "ukphone": "ətˈlæntə"
+ },
+ {
+  "name": "Boston",
+  "trans": [
+   "波士顿；美国常见城市名"
+  ],
+  "usphone": "ˈbɔstən",
+  "ukphone": "ˈbɔstən"
+ },
+ {
+  "name": "Seattle",
+  "trans": [
+   "西雅图；美国常见城市名"
+  ],
+  "usphone": "siˈætəl",
+  "ukphone": "siˈætəl"
+ },
+ {
+  "name": "Las Vegas",
+  "trans": [
+   "拉斯维加斯；美国常见城市名"
+  ],
+  "usphone": "lɑs ˈveɪɡəs",
+  "ukphone": "lɑs ˈveɪɡəs"
+ },
+ {
+  "name": "Washington",
+  "trans": [
+   "华盛顿特区；美国常见城市名"
+  ],
+  "usphone": "ˈwɑʃɪŋtən ˌdiː ˈsiː",
+  "ukphone": "ˈwɑʃɪŋtən ˌdiː ˈsiː"
+ },
+ {
+  "name": "Denver",
+  "trans": [
+   "丹佛；美国常见城市名"
+  ],
+  "usphone": "ˈdɛnvər",
+  "ukphone": "ˈdɛnvər"
+ },
+ {
+  "name": "Detroit",
+  "trans": [
+   "底特律；美国常见城市名"
+  ],
+  "usphone": "dɪˈtrɔɪt",
+  "ukphone": "dɪˈtrɔɪt"
+ },
+ {
+  "name": "Orlando",
+  "trans": [
+   "奥兰多；美国常见城市名"
+  ],
+  "usphone": "ɔrˈlændoʊ",
+  "ukphone": "ɔrˈlændoʊ"
+ },
+ {
+  "name": "San Francisco",
+  "trans": [
+   "旧金山；美国常见城市名"
+  ],
+  "usphone": "ˌsæn frənˈsɪskoʊ",
+  "ukphone": "ˌsæn frənˈsɪskoʊ"
+ },
+ {
+  "name": "Walmart",
+  "trans": [
+   "沃尔玛；全国性大型超市和百货零售商"
+  ],
+  "usphone": "ˈwɔlmɑrt",
+  "ukphone": "ˈwɔlmɑrt"
+ },
+ {
+  "name": "Costco",
+  "trans": [
+   "开市客／好市多；会员制仓储超市"
+  ],
+  "usphone": "ˈkɑstkoʊ",
+  "ukphone": "ˈkɑstkoʊ"
+ },
+ {
+  "name": "Sam's Club",
+  "trans": [
+   "山姆会员店；会员制仓储超市"
+  ],
+  "usphone": "ˈsæmz klʌb",
+  "ukphone": "ˈsæmz klʌb"
+ },
+ {
+  "name": "Kroger",
+  "trans": [
+   "克罗格；美国大型连锁超市"
+  ],
+  "usphone": "ˈkroʊɡər",
+  "ukphone": "ˈkroʊɡər"
+ },
+ {
+  "name": "Aldi",
+  "trans": [
+   "奥乐齐；折扣型连锁超市"
+  ],
+  "usphone": "ˈɑldi",
+  "ukphone": "ˈɑldi"
+ },
+ {
+  "name": "H-E-B",
+  "trans": [
+   "H-E-B；得州常见连锁超市"
+  ],
+  "usphone": "ˌeɪtʃ iː ˈbiː",
+  "ukphone": "ˌeɪtʃ iː ˈbiː"
+ },
+ {
+  "name": "CVS",
+  "trans": [
+   "CVS；连锁药店和便利零售商"
+  ],
+  "usphone": "ˌsiː viː ˈɛs",
+  "ukphone": "ˌsiː viː ˈɛs"
+ },
+ {
+  "name": "Walgreens",
+  "trans": [
+   "沃尔格林；全国性连锁药店"
+  ],
+  "usphone": "ˈwɔlɡrinz",
+  "ukphone": "ˈwɔlɡrinz"
+ },
+ {
+  "name": "Home Depot",
+  "trans": [
+   "家得宝；建材、工具和家居装修商店"
+  ],
+  "usphone": "ˌhoʊm ˈdiːpoʊ",
+  "ukphone": "ˌhoʊm ˈdiːpoʊ"
+ },
+ {
+  "name": "Lowe's",
+  "trans": [
+   "劳氏；建材和家居装修商店"
+  ],
+  "usphone": "loʊz",
+  "ukphone": "loʊz"
+ },
+ {
+  "name": "AutoZone",
+  "trans": [
+   "AutoZone；汽车零部件连锁店"
+  ],
+  "usphone": "ˈɔtoʊ zoʊn",
+  "ukphone": "ˈɔtoʊ zoʊn"
+ },
+ {
+  "name": "O'Reilly Auto Parts",
+  "trans": [
+   "O'Reilly 汽车配件；汽车零部件连锁店"
+  ],
+  "usphone": "oʊˈraɪli ˈɔtoʊ pɑrts",
+  "ukphone": "oʊˈraɪli ˈɔtoʊ pɑrts"
+ },
+ {
+  "name": "Best Buy",
+  "trans": [
+   "百思买；电子产品和家电零售商"
+  ],
+  "usphone": "ˌbɛst ˈbaɪ",
+  "ukphone": "ˌbɛst ˈbaɪ"
+ },
+ {
+  "name": "McDonald's",
+  "trans": [
+   "麦当劳；全国性快餐连锁品牌"
+  ],
+  "usphone": "məkˈdɑnəldz",
+  "ukphone": "məkˈdɑnəldz"
+ },
+ {
+  "name": "Chick-fil-A",
+  "trans": [
+   "Chick-fil-A；以鸡肉三明治为主的快餐连锁店"
+  ],
+  "usphone": "ˌtʃɪk fɪl ˈeɪ",
+  "ukphone": "ˌtʃɪk fɪl ˈeɪ"
+ },
+ {
+  "name": "Starbucks",
+  "trans": [
+   "星巴克；全国性咖啡连锁品牌"
+  ],
+  "usphone": "ˈstɑrˌbʌks",
+  "ukphone": "ˈstɑrˌbʌks"
+ },
+ {
+  "name": "UPS",
+  "trans": [
+   "UPS；快递和物流公司"
+  ],
+  "usphone": "ˌju pi ˈɛs",
+  "ukphone": "ˌju pi ˈɛs"
+ },
+ {
+  "name": "FedEx",
+  "trans": [
+   "联邦快递；快递和物流公司"
+  ],
+  "usphone": "ˈfɛdˌɛks",
+  "ukphone": "ˈfɛdˌɛks"
+ },
+ {
+  "name": "USPS",
+  "trans": [
+   "美国邮政署；美国邮政服务机构"
+  ],
+  "usphone": "ˌju ɛs pi ˈɛs",
+  "ukphone": "ˌju ɛs pi ˈɛs"
+ },
+ {
+  "name": "Bank of America",
+  "trans": [
+   "美国银行；美国大型银行品牌"
+  ],
+  "usphone": "ˌbæŋk əv əˈmɛrɪkə",
+  "ukphone": "ˌbæŋk əv əˈmɛrɪkə"
+ },
+ {
+  "name": "Wells Fargo",
+  "trans": [
+   "富国银行；美国大型银行品牌"
+  ],
+  "usphone": "ˌwɛlz ˈfɑrɡoʊ",
+  "ukphone": "ˌwɛlz ˈfɑrɡoʊ"
+ },
+ {
+  "name": "Verizon",
+  "trans": [
+   "Verizon；美国电信运营商"
+  ],
+  "usphone": "vəˈraɪzən",
+  "ukphone": "vəˈraɪzən"
+ },
+ {
+  "name": "T-Mobile",
+  "trans": [
+   "T-Mobile；美国电信运营商"
+  ],
+  "usphone": "ˈti ˌmoʊbəl",
+  "ukphone": "ˈti ˌmoʊbəl"
+ },
+ {
+  "name": "Google",
+  "trans": [
+   "谷歌；搜索、地图和科技公司"
+  ],
+  "usphone": "ˈɡuɡəl",
+  "ukphone": "ˈɡuɡəl"
+ },
+ {
+  "name": "Microsoft",
+  "trans": [
+   "微软；软件和科技公司"
+  ],
+  "usphone": "ˈmaɪkroʊsɔft",
+  "ukphone": "ˈmaɪkroʊsɔft"
+ },
+ {
+  "name": "Amazon",
+  "trans": [
+   "亚马逊；电商和科技公司"
+  ],
+  "usphone": "ˈæməˌzɑn",
+  "ukphone": "ˈæməˌzɑn"
+ },
+ {
+  "name": "Ford",
+  "trans": [
+   "福特；美国汽车品牌"
+  ],
+  "usphone": "fɔrd",
+  "ukphone": "fɔrd"
+ },
+ {
+  "name": "Chevrolet",
+  "trans": [
+   "雪佛兰；美国汽车品牌"
+  ],
+  "usphone": "ˌʃɛvrəˈleɪ",
+  "ukphone": "ˌʃɛvrəˈleɪ"
+ },
+ {
+  "name": "Toyota",
+  "trans": [
+   "丰田；在美国常见的汽车品牌"
+  ],
+  "usphone": "tɔɪˈoʊtə",
+  "ukphone": "tɔɪˈoʊtə"
+ },
+ {
+  "name": "BMW",
+  "trans": [
+   "宝马；在美国常见的德国汽车品牌"
+  ],
+  "usphone": "ˌbi ɛm ˈdʌbəlju",
+  "ukphone": "ˌbi ɛm ˈdʌbəlju"
+ },
+ {
+  "name": "Delta",
+  "trans": [
+   "达美航空；美国大型航空公司"
+  ],
+  "usphone": "ˈdɛltə",
+  "ukphone": "ˈdɛltə"
+ },
+ {
+  "name": "United Airlines",
+  "trans": [
+   "美国联合航空；美国大型航空公司"
+  ],
+  "usphone": "juˈnaɪtəd ˈɛrlaɪnz",
+  "ukphone": "juˈnaɪtəd ˈɛrlaɪnz"
+ },
+ {
+  "name": "American Airlines",
+  "trans": [
+   "美国航空；美国大型航空公司"
+  ],
+  "usphone": "əˈmɛrɪkən ˈɛrlaɪnz",
+  "ukphone": "əˈmɛrɪkən ˈɛrlaɪnz"
+ },
+ {
+  "name": "Marriott",
+  "trans": [
+   "万豪；国际连锁酒店集团"
+  ],
+  "usphone": "ˈmɛriət",
+  "ukphone": "ˈmɛriət"
+ },
+ {
+  "name": "Hilton",
+  "trans": [
+   "希尔顿；国际连锁酒店集团"
+  ],
+  "usphone": "ˈhɪltən",
+  "ukphone": "ˈhɪltən"
+ },
+ {
+  "name": "GEICO",
+  "trans": [
+   "GEICO；美国常见汽车保险公司"
+  ],
+  "usphone": "ˈɡaɪkoʊ",
+  "ukphone": "ˈɡaɪkoʊ"
+ },
+ {
+  "name": "Exxon",
+  "trans": [
+   "埃克森；美国常见加油站品牌"
+  ],
+  "usphone": "ˈɛksɑn",
+  "ukphone": "ˈɛksɑn"
+ },
+ {
+  "name": "Chevron",
+  "trans": [
+   "雪佛龙；美国常见加油站品牌"
+  ],
+  "usphone": "ˈʃɛvrɑn",
+  "ukphone": "ˈʃɛvrɑn"
+ },
+ {
+  "name": "Dollar General",
+  "trans": [
+   "Dollar General；折扣型日用百货连锁店"
+  ],
+  "usphone": "ˌdɑlər ˈdʒɛnərəl",
+  "ukphone": "ˌdɑlər ˈdʒɛnərəl"
+ },
+ {
+  "name": "TJ Maxx",
+  "trans": [
+   "TJ Maxx；折扣服装和家居百货店"
+  ],
+  "usphone": "ˌti dʒeɪ ˈmæks",
+  "ukphone": "ˌti dʒeɪ ˈmæks"
+ },
+ {
+  "name": "Macy's",
+  "trans": [
+   "梅西百货；美国传统百货公司"
+  ],
+  "usphone": "ˈmeɪsiz",
+  "ukphone": "ˈmeɪsiz"
+ },
+ {
+  "name": "Ace Hardware",
+  "trans": [
+   "Ace Hardware；五金工具连锁店"
+  ],
+  "usphone": "ˌeɪs ˈhɑrdwɛr",
+  "ukphone": "ˌeɪs ˈhɑrdwɛr"
+ },
+ {
+  "name": "ZIP code",
+  "trans": [
+   "美国邮政编码"
+  ],
+  "usphone": "ˈzɪp koʊd",
+  "ukphone": "ˈzɪp koʊd"
+ },
+ {
+  "name": "area code",
+  "trans": [
+   "电话区号"
+  ],
+  "usphone": "ˈeriə koʊd",
+  "ukphone": "ˈeriə koʊd"
+ },
+ {
+  "name": "phone number",
+  "trans": [
+   "电话号码"
+  ],
+  "usphone": "foʊn ˈnʌmbər",
+  "ukphone": "foʊn ˈnʌmbər"
+ },
+ {
+  "name": "mph",
+  "trans": [
+   "英里每小时；美国车速单位"
+  ],
+  "usphone": "ˌɛm pi ˈeɪtʃ",
+  "ukphone": "ˌɛm pi ˈeɪtʃ"
+ },
+ {
+  "name": "mpg",
+  "trans": [
+   "每加仑英里数；美国油耗单位"
+  ],
+  "usphone": "ˌɛm pi ˈdʒi",
+  "ukphone": "ˌɛm pi ˈdʒi"
+ },
+ {
+  "name": "PSI",
+  "trans": [
+   "磅力每平方英寸；压力单位"
+  ],
+  "usphone": "ˌpi ɛs ˈaɪ",
+  "ukphone": "ˌpi ɛs ˈaɪ"
+ },
+ {
+  "name": "volt",
+  "trans": [
+   "伏特；电压单位"
+  ],
+  "usphone": "voʊlt",
+  "ukphone": "voʊlt"
+ },
+ {
+  "name": "amp",
+  "trans": [
+   "安培；电流单位"
+  ],
+  "usphone": "æmp",
+  "ukphone": "æmp"
+ },
+ {
+  "name": "watt",
+  "trans": [
+   "瓦特；功率单位"
+  ],
+  "usphone": "wɑt",
+  "ukphone": "wɑt"
+ },
+ {
+  "name": "kilowatt",
+  "trans": [
+   "千瓦；一千瓦等于1000瓦"
+  ],
+  "usphone": "ˈkɪləˌwɑt",
+  "ukphone": "ˈkɪləˌwɑt"
+ },
+ {
+  "name": "megawatt",
+  "trans": [
+   "兆瓦；一兆瓦等于1000千瓦"
+  ],
+  "usphone": "ˈmɛɡəˌwɑt",
+  "ukphone": "ˈmɛɡəˌwɑt"
+ },
+ {
+  "name": "fluid ounce",
+  "trans": [
+   "液体盎司；美国液体容量单位"
+  ],
+  "usphone": "ˈfluɪd aʊns",
+  "ukphone": "ˈfluɪd aʊns"
+ },
+ {
+  "name": "DMV",
+  "trans": [
+   "机动车管理部门"
+  ],
+  "usphone": "ˌdi ɛm ˈvi",
+  "ukphone": "ˌdi ɛm ˈvi"
+ },
+ {
+  "name": "IRS",
+  "trans": [
+   "美国国税局"
+  ],
+  "usphone": "ˌaɪ ɑr ˈɛs",
+  "ukphone": "ˌaɪ ɑr ˈɛs"
+ },
+ {
+  "name": "TSA",
+  "trans": [
+   "美国运输安全管理局"
+  ],
+  "usphone": "ˌti ɛs ˈeɪ",
+  "ukphone": "ˌti ɛs ˈeɪ"
+ },
+ {
+  "name": "SSA",
+  "trans": [
+   "美国社会保障局"
+  ],
+  "usphone": "ˌɛs ɛs ˈeɪ",
+  "ukphone": "ˌɛs ɛs ˈeɪ"
+ },
+ {
+  "name": "USCIS",
+  "trans": [
+   "美国公民及移民服务局"
+  ],
+  "usphone": "ˌju ɛs si aɪ ˈɛs",
+  "ukphone": "ˌju ɛs si aɪ ˈɛs"
+ },
+ {
+  "name": "FEMA",
+  "trans": [
+   "美国联邦紧急事务管理署"
+  ],
+  "usphone": "ˈfimə",
+  "ukphone": "ˈfimə"
+ },
+ {
+  "name": "CDC",
+  "trans": [
+   "美国疾病控制与预防中心"
+  ],
+  "usphone": "ˌsi di ˈsi",
+  "ukphone": "ˌsi di ˈsi"
+ },
+ {
+  "name": "FDA",
+  "trans": [
+   "美国食品药品监督管理局"
+  ],
+  "usphone": "ˌɛf di ˈeɪ",
+  "ukphone": "ˌɛf di ˈeɪ"
+ },
+ {
+  "name": "OSHA",
+  "trans": [
+   "美国职业安全与健康管理局"
+  ],
+  "usphone": "ˈoʊʃə",
+  "ukphone": "ˈoʊʃə"
+ },
+ {
+  "name": "speed limit",
+  "trans": [
+   "限速"
+  ],
+  "usphone": "spiːd ˈlɪmɪt",
+  "ukphone": "spiːd ˈlɪmɪt"
+ },
+ {
+  "name": "no parking",
+  "trans": [
+   "禁止停车"
+  ],
+  "usphone": "noʊ ˈpɑːrkɪŋ",
+  "ukphone": "noʊ ˈpɑːrkɪŋ"
+ },
+ {
+  "name": "one way",
+  "trans": [
+   "单行道；只准一个方向通行"
+  ],
+  "usphone": "wʌn weɪ",
+  "ukphone": "wʌn weɪ"
+ },
+ {
+  "name": "do not enter",
+  "trans": [
+   "禁止驶入"
+  ],
+  "usphone": "duː, də nɑːt ˈentər",
+  "ukphone": "duː, də nɑːt ˈentər"
+ },
+ {
+  "name": "wrong way",
+  "trans": [
+   "方向错误；逆行"
+  ],
+  "usphone": "rɔːŋ weɪ",
+  "ukphone": "rɔːŋ weɪ"
+ },
+ {
+  "name": "road work",
+  "trans": [
+   "道路施工"
+  ],
+  "usphone": "roʊd wɜːrk",
+  "ukphone": "roʊd wɜːrk"
+ },
+ {
+  "name": "school zone",
+  "trans": [
+   "学校区域"
+  ],
+  "usphone": "skuːl zoʊn",
+  "ukphone": "skuːl zoʊn"
+ },
+ {
+  "name": "lane closed",
+  "trans": [
+   "车道关闭"
+  ],
+  "usphone": "leɪn kloʊzd",
+  "ukphone": "leɪn kloʊzd"
+ },
+ {
+  "name": "exit only",
+  "trans": [
+   "仅限驶出；该车道必须下出口"
+  ],
+  "usphone": "ˈeɡzɪt ˈoʊnli",
+  "ukphone": "ˈeɡzɪt ˈoʊnli"
+ },
+ {
+  "name": "four-way stop",
+  "trans": [
+   "四向停车路口"
+  ],
+  "usphone": "fɔːr weɪ stɑːp",
+  "ukphone": "fɔːr weɪ stɑːp"
+ },
+ {
+  "name": "right of way",
+  "trans": [
+   "通行优先权"
+  ],
+  "usphone": "ˌraɪt əv ˈweɪ",
+  "ukphone": "ˌraɪt əv ˈweɪ"
+ },
+ {
+  "name": "turn signal",
+  "trans": [
+   "转向灯"
+  ],
+  "usphone": "tɜːrn ˈsɪɡnəl",
+  "ukphone": "tɜːrn ˈsɪɡnəl"
+ },
+ {
+  "name": "parking meter",
+  "trans": [
+   "路边停车计时器"
+  ],
+  "usphone": "ˈpɑːrkɪŋ ˈmiːtər",
+  "ukphone": "ˈpɑːrkɪŋ ˈmiːtər"
+ },
+ {
+  "name": "parking garage",
+  "trans": [
+   "停车楼；室内停车场"
+  ],
+  "usphone": "ˈpɑːrkɪŋ ɡəˈrɑːʒ",
+  "ukphone": "ˈpɑːrkɪŋ ɡəˈrɑːʒ"
+ },
+ {
+  "name": "parking permit",
+  "trans": [
+   "停车许可证"
+  ],
+  "usphone": "ˈpɑːrkɪŋ pərˈmɪt; ˈpɜːrmɪt",
+  "ukphone": "ˈpɑːrkɪŋ pərˈmɪt; ˈpɜːrmɪt"
+ },
+ {
+  "name": "tow-away zone",
+  "trans": [
+   "拖车区域；违停会被拖走"
+  ],
+  "usphone": "ˈtoʊ əˌweɪ zoʊn",
+  "ukphone": "ˈtoʊ əˌweɪ zoʊn"
+ },
+ {
+  "name": "parallel parking",
+  "trans": [
+   "侧方停车"
+  ],
+  "usphone": "ˈperəˌlel ˈpɑːrkɪŋ",
+  "ukphone": "ˈperəˌlel ˈpɑːrkɪŋ"
+ },
+ {
+  "name": "driver's license",
+  "trans": [
+   "驾驶证"
+  ],
+  "usphone": "ˈdraɪvərz ˌlaɪsəns",
+  "ukphone": "ˈdraɪvərz ˌlaɪsəns"
+ },
+ {
+  "name": "license plate",
+  "trans": [
+   "车牌"
+  ],
+  "usphone": "ˈlaɪsəns pleɪt",
+  "ukphone": "ˈlaɪsəns pleɪt"
+ },
+ {
+  "name": "vehicle registration",
+  "trans": [
+   "车辆登记文件"
+  ],
+  "usphone": "ˈviːəkəl ˌredʒəˈstreɪʃən",
+  "ukphone": "ˈviːəkəl ˌredʒəˈstreɪʃən"
+ },
+ {
+  "name": "car insurance",
+  "trans": [
+   "汽车保险"
+  ],
+  "usphone": "kɑːr ɪnˈʃʊrəns",
+  "ukphone": "kɑːr ɪnˈʃʊrəns"
+ },
+ {
+  "name": "deli",
+  "trans": [
+   "熟食柜台；熟食店"
+  ],
+  "usphone": "ˈdɛli",
+  "ukphone": "ˈdɛli"
+ },
+ {
+  "name": "frozen foods",
+  "trans": [
+   "冷冻食品"
+  ],
+  "usphone": "ˈfroʊzən fuːd",
+  "ukphone": "ˈfroʊzən fuːd"
+ },
+ {
+  "name": "canned goods",
+  "trans": [
+   "罐头食品"
+  ],
+  "usphone": "ˌkænd ˈɡʊdz",
+  "ukphone": "ˌkænd ˈɡʊdz"
+ },
+ {
+  "name": "condiments",
+  "trans": [
+   "佐餐调味品"
+  ],
+  "usphone": "ˈkɑndəmənts",
+  "ukphone": "ˈkɑndəmənts"
+ },
+ {
+  "name": "seasoning",
+  "trans": [
+   "调味料；复合香料"
+  ],
+  "usphone": "ˈsizənɪŋ",
+  "ukphone": "ˈsizənɪŋ"
+ },
+ {
+  "name": "household supplies",
+  "trans": [
+   "家居日用品"
+  ],
+  "usphone": "ˈhaʊshoʊld səˈplaɪz",
+  "ukphone": "ˈhaʊshoʊld səˈplaɪz"
+ },
+ {
+  "name": "cleaning supplies",
+  "trans": [
+   "清洁用品"
+  ],
+  "usphone": "ˈklinɪŋ səˈplaɪz",
+  "ukphone": "ˈklinɪŋ səˈplaɪz"
+ },
+ {
+  "name": "laundry detergent",
+  "trans": [
+   "洗衣液；洗衣粉"
+  ],
+  "usphone": "ˈlɔndri dɪˈtɜrdʒənt",
+  "ukphone": "ˈlɔndri dɪˈtɜrdʒənt"
+ },
+ {
+  "name": "fabric softener",
+  "trans": [
+   "衣物柔顺剂"
+  ],
+  "usphone": "ˈfæbrɪk ˈsɔfənər",
+  "ukphone": "ˈfæbrɪk ˈsɔfənər"
+ },
+ {
+  "name": "paper goods",
+  "trans": [
+   "纸类日用品"
+  ],
+  "usphone": "ˈpeɪpər ɡʊd",
+  "ukphone": "ˈpeɪpər ɡʊd"
+ },
+ {
+  "name": "personal care",
+  "trans": [
+   "个人护理用品"
+  ],
+  "usphone": "ˈpɜːrsənəl ker",
+  "ukphone": "ˈpɜːrsənəl ker"
+ },
+ {
+  "name": "over-the-counter medicine",
+  "trans": [
+   "非处方药"
+  ],
+  "usphone": "ˌoʊvər ðə ˈkaʊntər ˌmɛdəsən",
+  "ukphone": "ˌoʊvər ðə ˈkaʊntər ˌmɛdəsən"
+ },
+ {
+  "name": "baby formula",
+  "trans": [
+   "婴儿配方奶"
+  ],
+  "usphone": "ˈbeɪbi ˈfɔrmjələ",
+  "ukphone": "ˈbeɪbi ˈfɔrmjələ"
+ },
+ {
+  "name": "pet supplies",
+  "trans": [
+   "宠物用品"
+  ],
+  "usphone": "ˈpɛt səˈplaɪz",
+  "ukphone": "ˈpɛt səˈplaɪz"
+ },
+ {
+  "name": "kitchenware",
+  "trans": [
+   "厨房用品；厨具"
+  ],
+  "usphone": "ˈkɪtʃənˌwɛr",
+  "ukphone": "ˈkɪtʃənˌwɛr"
+ },
+ {
+  "name": "sporting goods",
+  "trans": [
+   "体育用品"
+  ],
+  "usphone": "ˈspɔrtɪŋ ɡʊdz",
+  "ukphone": "ˈspɔrtɪŋ ɡʊdz"
+ },
+ {
+  "name": "school supplies",
+  "trans": [
+   "学习用品；文具"
+  ],
+  "usphone": "ˈskul səˈplaɪz",
+  "ukphone": "ˈskul səˈplaɪz"
+ },
+ {
+  "name": "self-checkout",
+  "trans": [
+   "自助结账"
+  ],
+  "usphone": "ˌsɛlf ˈtʃɛkaʊt",
+  "ukphone": "ˌsɛlf ˈtʃɛkaʊt"
+ },
+ {
+  "name": "unit price",
+  "trans": [
+   "单位价格"
+  ],
+  "usphone": "ˈjuːnət praɪs",
+  "ukphone": "ˈjuːnət praɪs"
+ },
+ {
+  "name": "sales tax",
+  "trans": [
+   "销售税"
+  ],
+  "usphone": "seɪl tæks",
+  "ukphone": "seɪl tæks"
+ },
+ {
+  "name": "clearance",
+  "trans": [
+   "清仓特价"
+  ],
+  "usphone": "ˈklɪrəns",
+  "ukphone": "ˈklɪrəns"
+ },
+ {
+  "name": "BOGO",
+  "trans": [
+   "买一送一类促销"
+  ],
+  "usphone": "ˈboʊɡoʊ",
+  "ukphone": "ˈboʊɡoʊ"
+ },
+ {
+  "name": "coupon",
+  "trans": [
+   "优惠券"
+  ],
+  "usphone": "ˈkuˌpɑn",
+  "ukphone": "ˈkuˌpɑn"
+ },
+ {
+  "name": "aisle",
+  "trans": [
+   "商店通道；货架过道"
+  ],
+  "usphone": "aɪl",
+  "ukphone": "aɪl"
+ },
+ {
+  "name": "barcode",
+  "trans": [
+   "条形码"
+  ],
+  "usphone": "ˈbɑrˌkoʊd",
+  "ukphone": "ˈbɑrˌkoʊd"
+ },
+ {
+  "name": "family size",
+  "trans": [
+   "家庭装；大包装"
+  ],
+  "usphone": "ˈfæməli saɪz",
+  "ukphone": "ˈfæməli saɪz"
+ },
+ {
+  "name": "single-serve",
+  "trans": [
+   "单份装"
+  ],
+  "usphone": "ˌsɪŋɡəl ˈsɜrv",
+  "ukphone": "ˌsɪŋɡəl ˈsɜrv"
+ },
+ {
+  "name": "net weight",
+  "trans": [
+   "净重"
+  ],
+  "usphone": "net weɪt",
+  "ukphone": "net weɪt"
+ },
+ {
+  "name": "serving size",
+  "trans": [
+   "每份食用量"
+  ],
+  "usphone": "ˈsɜrvɪŋ saɪz",
+  "ukphone": "ˈsɜrvɪŋ saɪz"
+ },
+ {
+  "name": "expiration date",
+  "trans": [
+   "到期日期；有效期"
+  ],
+  "usphone": "ˌɛkspəˈreɪʃən deɪt",
+  "ukphone": "ˌɛkspəˈreɪʃən deɪt"
+ },
+ {
+  "name": "best if used by",
+  "trans": [
+   "最佳食用期至"
+  ],
+  "usphone": "best ɪf juːzd baɪ",
+  "ukphone": "best ɪf juːzd baɪ"
+ },
+ {
+  "name": "gluten-free",
+  "trans": [
+   "无麸质的"
+  ],
+  "usphone": "ˌɡlutən ˈfri",
+  "ukphone": "ˌɡlutən ˈfri"
+ },
+ {
+  "name": "sugar-free",
+  "trans": [
+   "无糖的"
+  ],
+  "usphone": "ˌʃʊɡər ˈfri",
+  "ukphone": "ˌʃʊɡər ˈfri"
+ },
+ {
+  "name": "low-fat",
+  "trans": [
+   "低脂的"
+  ],
+  "usphone": "ˌloʊ ˈfæt",
+  "ukphone": "ˌloʊ ˈfæt"
+ },
+ {
+  "name": "utility bill",
+  "trans": [
+   "水电燃气等公用事业账单"
+  ],
+  "usphone": "juˈtɪləti bɪl",
+  "ukphone": "juˈtɪləti bɪl"
+ },
+ {
+  "name": "electric bill",
+  "trans": [
+   "电费账单"
+  ],
+  "usphone": "ɪˈlektrɪk bɪl",
+  "ukphone": "ɪˈlektrɪk bɪl"
+ },
+ {
+  "name": "water bill",
+  "trans": [
+   "水费账单"
+  ],
+  "usphone": "ˈwɔːtər bɪl",
+  "ukphone": "ˈwɔːtər bɪl"
+ },
+ {
+  "name": "internet service",
+  "trans": [
+   "互联网服务；宽带服务"
+  ],
+  "usphone": "ˈɪntərnet ˈsɜːrvɪs",
+  "ukphone": "ˈɪntərnet ˈsɜːrvɪs"
+ },
+ {
+  "name": "checking account",
+  "trans": [
+   "支票账户；日常交易账户"
+  ],
+  "usphone": "ˈtʃɛkɪŋ əˌkaʊnt",
+  "ukphone": "ˈtʃɛkɪŋ əˌkaʊnt"
+ },
+ {
+  "name": "savings account",
+  "trans": [
+   "储蓄账户"
+  ],
+  "usphone": "ˈseɪvɪŋ əˈkaʊnt",
+  "ukphone": "ˈseɪvɪŋ əˈkaʊnt"
+ },
+ {
+  "name": "routing number",
+  "trans": [
+   "银行路由号码"
+  ],
+  "usphone": "ˈrutɪŋ ˌnʌmbər",
+  "ukphone": "ˈrutɪŋ ˌnʌmbər"
+ },
+ {
+  "name": "credit score",
+  "trans": [
+   "信用评分"
+  ],
+  "usphone": "ˈkredɪt skɔːr",
+  "ukphone": "ˈkredɪt skɔːr"
+ },
+ {
+  "name": "due date",
+  "trans": [
+   "到期日；最晚付款日"
+  ],
+  "usphone": "duː deɪt",
+  "ukphone": "duː deɪt"
+ },
+ {
+  "name": "late fee",
+  "trans": [
+   "逾期费"
+  ],
+  "usphone": "leɪt fiː",
+  "ukphone": "leɪt fiː"
+ },
+ {
+  "name": "security deposit",
+  "trans": [
+   "租房押金"
+  ],
+  "usphone": "sɪˈkjʊrəti dɪˈpɑzɪt",
+  "ukphone": "sɪˈkjʊrəti dɪˈpɑzɪt"
+ },
+ {
+  "name": "lease agreement",
+  "trans": [
+   "租赁合同"
+  ],
+  "usphone": "ˈlis əˌɡrimənt",
+  "ukphone": "ˈlis əˌɡrimənt"
+ },
+ {
+  "name": "renter's insurance",
+  "trans": [
+   "租客保险"
+  ],
+  "usphone": "ˈrɛntərz ɪnˌʃʊrəns",
+  "ukphone": "ˈrɛntərz ɪnˌʃʊrəns"
+ },
+ {
+  "name": "money order",
+  "trans": [
+   "汇票；预付付款凭证"
+  ],
+  "usphone": "ˈmʌni ˈɔːrdər",
+  "ukphone": "ˈmʌni ˈɔːrdər"
+ },
+ {
+  "name": "oil change",
+  "trans": [
+   "更换发动机机油"
+  ],
+  "usphone": "ɔɪl tʃeɪndʒ",
+  "ukphone": "ɔɪl tʃeɪndʒ"
+ },
+ {
+  "name": "tire pressure",
+  "trans": [
+   "轮胎气压"
+  ],
+  "usphone": "ˈtaɪər ˈpreʃər",
+  "ukphone": "ˈtaɪər ˈpreʃər"
+ },
+ {
+  "name": "check engine light",
+  "trans": [
+   "发动机故障灯"
+  ],
+  "usphone": "ˈtʃɛk ˌɛndʒən laɪt",
+  "ukphone": "ˈtʃɛk ˌɛndʒən laɪt"
+ },
+ {
+  "name": "windshield wiper",
+  "trans": [
+   "挡风玻璃雨刷"
+  ],
+  "usphone": "ˈwɪndˌʃild ˌwaɪpər",
+  "ukphone": "ˈwɪndˌʃild ˌwaɪpər"
+ },
+ {
+  "name": "jumper cables",
+  "trans": [
+   "汽车搭电线"
+  ],
+  "usphone": "ˈdʒʌmpər ˌkeɪbəlz",
+  "ukphone": "ˈdʒʌmpər ˌkeɪbəlz"
+ },
+ {
+  "name": "brake fluid",
+  "trans": [
+   "制动液；刹车油"
+  ],
+  "usphone": "ˈbreɪk ˌfluɪd",
+  "ukphone": "ˈbreɪk ˌfluɪd"
+ },
+ {
+  "name": "air filter",
+  "trans": [
+   "空气滤芯"
+  ],
+  "usphone": "er ˈfɪltər",
+  "ukphone": "er ˈfɪltər"
+ },
+ {
+  "name": "cabin air filter",
+  "trans": [
+   "空调滤芯；车内空气滤芯"
+  ],
+  "usphone": "ˈkæbɪn er ˈfɪltər",
+  "ukphone": "ˈkæbɪn er ˈfɪltər"
+ },
+ {
+  "name": "VIN",
+  "trans": [
+   "车辆识别号码；车架号"
+  ],
+  "usphone": "vɪn",
+  "ukphone": "vɪn"
+ },
+ {
+  "name": "odometer",
+  "trans": [
+   "里程表"
+  ],
+  "usphone": "oʊˈdɑmətər",
+  "ukphone": "oʊˈdɑmətər"
+ },
+ {
+  "name": "gas mileage",
+  "trans": [
+   "燃油经济性；油耗表现"
+  ],
+  "usphone": "ˈɡæs ˌmaɪlɪdʒ",
+  "ukphone": "ˈɡæs ˌmaɪlɪdʒ"
+ },
+ {
+  "name": "regular unleaded",
+  "trans": [
+   "普通无铅汽油"
+  ],
+  "usphone": "ˈrɛɡjələr ʌnˈlɛdɪd",
+  "ukphone": "ˈrɛɡjələr ʌnˈlɛdɪd"
+ },
+ {
+  "name": "premium gas",
+  "trans": [
+   "高标号汽油"
+  ],
+  "usphone": "ˈprimiəm ɡæs",
+  "ukphone": "ˈprimiəm ɡæs"
+ },
+ {
+  "name": "drive-thru",
+  "trans": [
+   "免下车服务通道"
+  ],
+  "usphone": "ˈdraɪvˌθru",
+  "ukphone": "ˈdraɪvˌθru"
+ },
+ {
+  "name": "dine-in",
+  "trans": [
+   "堂食"
+  ],
+  "usphone": "ˈdaɪnˌɪn",
+  "ukphone": "ˈdaɪnˌɪn"
+ },
+ {
+  "name": "takeout",
+  "trans": [
+   "外带；外卖自取"
+  ],
+  "usphone": "ˈteɪkˌaʊt",
+  "ukphone": "ˈteɪkˌaʊt"
+ },
+ {
+  "name": "combo meal",
+  "trans": [
+   "套餐"
+  ],
+  "usphone": "ˈkɑmboʊ mil",
+  "ukphone": "ˈkɑmboʊ mil"
+ },
+ {
+  "name": "free refill",
+  "trans": [
+   "免费续杯"
+  ],
+  "usphone": "ˌfri ˈriˌfɪl",
+  "ukphone": "ˌfri ˈriˌfɪl"
+ },
+ {
+  "name": "to go",
+  "trans": [
+   "带走吃；打包"
+  ],
+  "usphone": "ɡoʊ",
+  "ukphone": "ɡoʊ"
+ },
+ {
+  "name": "separate checks",
+  "trans": [
+   "分开结账"
+  ],
+  "usphone": "ˈsepərət tʃek",
+  "ukphone": "ˈsepərət tʃek"
+ },
+ {
+  "name": "gratuity",
+  "trans": [
+   "服务费；小费"
+  ],
+  "usphone": "ɡrəˈtuəti",
+  "ukphone": "ɡrəˈtuəti"
+ },
+ {
+  "name": "PPE",
+  "trans": [
+   "个人防护装备"
+  ],
+  "usphone": "ˌpi pi ˈi",
+  "ukphone": "ˌpi pi ˈi"
+ },
+ {
+  "name": "hard hat",
+  "trans": [
+   "安全帽"
+  ],
+  "usphone": "hɑːrd hæt",
+  "ukphone": "hɑːrd hæt"
+ },
+ {
+  "name": "safety vest",
+  "trans": [
+   "反光安全背心"
+  ],
+  "usphone": "ˈseɪfti vɛst",
+  "ukphone": "ˈseɪfti vɛst"
+ },
+ {
+  "name": "lockout",
+  "trans": [
+   "上锁挂牌程序"
+  ],
+  "usphone": "ˈlɑkaʊt ˈtæɡaʊt",
+  "ukphone": "ˈlɑkaʊt ˈtæɡaʊt"
+ },
+ {
+  "name": "high voltage",
+  "trans": [
+   "高压电"
+  ],
+  "usphone": "ˌhaɪ ˈvoʊltɪdʒ",
+  "ukphone": "ˌhaɪ ˈvoʊltɪdʒ"
+ },
+ {
+  "name": "authorized personnel only",
+  "trans": [
+   "仅限授权人员进入"
+  ],
+  "usphone": "ˈɔθəˌraɪzd ˌpɜrsəˈnɛl ˈoʊnli",
+  "ukphone": "ˈɔθəˌraɪzd ˌpɜrsəˈnɛl ˈoʊnli"
+ },
+ {
+  "name": "wet floor",
+  "trans": [
+   "地面湿滑"
+  ],
+  "usphone": "wet flɔːr",
+  "ukphone": "wet flɔːr"
+ },
+ {
+  "name": "emergency exit",
+  "trans": [
+   "紧急出口"
+  ],
+  "usphone": "ɪˈmɜːrdʒənsi ˈeɡzɪt",
+  "ukphone": "ɪˈmɜːrdʒənsi ˈeɡzɪt"
+ },
+ {
+  "name": "fire extinguisher",
+  "trans": [
+   "灭火器"
+  ],
+  "usphone": "ˈfaɪər ɪkˌstɪŋɡwɪʃər",
+  "ukphone": "ˈfaɪər ɪkˌstɪŋɡwɪʃər"
+ },
+ {
+  "name": "first aid",
+  "trans": [
+   "急救；急救用品"
+  ],
+  "usphone": "fɜːrst eɪd",
+  "ukphone": "fɜːrst eɪd"
+ },
+ {
+  "name": "boarding pass",
+  "trans": [
+   "登机牌"
+  ],
+  "usphone": "ˈbɔrdɪŋ pæs",
+  "ukphone": "ˈbɔrdɪŋ pæs"
+ },
+ {
+  "name": "carry-on",
+  "trans": [
+   "随身行李"
+  ],
+  "usphone": "ˈkæriˌɑn",
+  "ukphone": "ˈkæriˌɑn"
+ },
+ {
+  "name": "baggage claim",
+  "trans": [
+   "行李提取处"
+  ],
+  "usphone": "ˈbæɡɪdʒ kleɪm",
+  "ukphone": "ˈbæɡɪdʒ kleɪm"
+ },
+ {
+  "name": "security checkpoint",
+  "trans": [
+   "安检点"
+  ],
+  "usphone": "sɪˈkjʊrəti ˈtʃɛkˌpɔɪnt",
+  "ukphone": "sɪˈkjʊrəti ˈtʃɛkˌpɔɪnt"
+ },
+ {
+  "name": "urgent care",
+  "trans": [
+   "紧急护理诊所；非急诊急症门诊"
+  ],
+  "usphone": "ˈɜrdʒənt ker",
+  "ukphone": "ˈɜrdʒənt ker"
+ },
+ {
+  "name": "primary care",
+  "trans": [
+   "基层医疗；家庭医生服务"
+  ],
+  "usphone": "ˈpraɪmeri ker",
+  "ukphone": "ˈpraɪmeri ker"
+ },
+ {
+  "name": "copay",
+  "trans": [
+   "定额自付额"
+  ],
+  "usphone": "ˈkoʊˌpeɪ",
+  "ukphone": "ˈkoʊˌpeɪ"
+ },
+ {
+  "name": "deductible",
+  "trans": [
+   "保险免赔额"
+  ],
+  "usphone": "dɪˈdʌktəbəl",
+  "ukphone": "dɪˈdʌktəbəl"
+ },
+ {
+  "name": "inseam",
+  "trans": [
+   "裤内长；内侧裤长"
+  ],
+  "usphone": "ˈɪnˌsim",
+  "ukphone": "ˈɪnˌsim"
+ },
+ {
+  "name": "regular fit",
+  "trans": [
+   "常规版型"
+  ],
+  "usphone": "ˈreɡjələr fɪt",
+  "ukphone": "ˈreɡjələr fɪt"
+ },
+ {
+  "name": "wide width",
+  "trans": [
+   "宽版鞋楦"
+  ],
+  "usphone": "waɪd wɪdθ",
+  "ukphone": "waɪd wɪdθ"
+ }
+]

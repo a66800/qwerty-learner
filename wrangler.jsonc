@@ -1,13 +1,22 @@
 // MOBEI deployment of Qwerty Learner at https://typing.mobei.win
 // Build: npx yarn@1.22.22 build   Deploy: npx wrangler deploy
+// Azure voice (optional backup pronunciation), set once in your own terminal:
+//   npx wrangler secret put AZURE_SPEECH_KEY
+//   npx wrangler secret put AZURE_SPEECH_REGION      (e.g. eastus)
 {
   "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
   "name": "mobei-typing",
   "compatibility_date": "2026-10-12",
+  // Only /api/* reaches the script; everything else is served straight from the assets
+  "main": "worker/index.ts",
   "assets": {
     "directory": "./build",
+    "binding": "ASSETS",
     // BrowserRouter routes (/gallery, /analysis, /error-book…) fall back to index.html
-    "not_found_handling": "single-page-application"
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
   },
+  // Per-IP limit for uncached Azure requests (cached words are free and unlimited)
+  "ratelimits": [{ "name": "TTS_LIMITER", "namespace_id": "4180", "simple": { "limit": 30, "period": 60 } }],
   "routes": [{ "pattern": "typing.mobei.win", "custom_domain": true }]
 }
