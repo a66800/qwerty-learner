@@ -249,38 +249,43 @@ const ResultScreen = () => {
                     <IexportWords fontSize={18} className="cursor-pointer text-gray-500" onClick={exportWords}></IexportWords>
                   </>
                 )}
-                <IconXiaoHongShu
-                  fontSize={15}
-                  className="cursor-pointer text-gray-500 hover:text-red-500 focus:outline-none"
-                  onClick={(e) => {
-                    handleOpenInfoPanel('redBook')
-                    e.currentTarget.blur()
-                  }}
-                />
+                {/* MOBEI deployment: upstream community/donation buttons hidden (their panels are not rendered here) */}
+                {false && (
+                  <>
+                    <IconXiaoHongShu
+                      fontSize={15}
+                      className="cursor-pointer text-gray-500 hover:text-red-500 focus:outline-none"
+                      onClick={(e) => {
+                        handleOpenInfoPanel('redBook')
+                        e.currentTarget.blur()
+                      }}
+                    />
 
-                <button
-                  onClick={(e) => {
-                    handleOpenInfoPanel('donate')
-                    e.currentTarget.blur()
-                  }}
-                  className="cursor-pointer"
-                  type="button"
-                  title="捐赠我们的项目"
-                >
-                  <IconCoffee fontSize={17} className={`text-gray-500 hover:text-amber-500  focus:outline-none ${styles.imgShake}`} />
-                </button>
+                    <button
+                      onClick={(e) => {
+                        handleOpenInfoPanel('donate')
+                        e.currentTarget.blur()
+                      }}
+                      className="cursor-pointer"
+                      type="button"
+                      title="捐赠我们的项目"
+                    >
+                      <IconCoffee fontSize={17} className={`text-gray-500 hover:text-amber-500  focus:outline-none ${styles.imgShake}`} />
+                    </button>
 
-                <button
-                  onClick={(e) => {
-                    handleOpenInfoPanel('community')
-                    e.currentTarget.blur()
-                  }}
-                  className="cursor-pointer text-gray-500 dark:text-gray-400"
-                  type="button"
-                  title="加入我们的社区"
-                >
-                  <IconWechat fontSize={16} className="text-gray-500 hover:text-green-500 focus:outline-none" />
-                </button>
+                    <button
+                      onClick={(e) => {
+                        handleOpenInfoPanel('community')
+                        e.currentTarget.blur()
+                      }}
+                      className="cursor-pointer text-gray-500 dark:text-gray-400"
+                      type="button"
+                      title="加入我们的社区"
+                    >
+                      <IconWechat fontSize={16} className="text-gray-500 hover:text-green-500 focus:outline-none" />
+                    </button>
+                  </>
+                )}
 
                 <a href="https://github.com/RealKai42/qwerty-learner" target="_blank" rel="noreferrer" className="leading-[0px]">
                   <IconGithub fontSize={16} className="text-gray-500 hover:text-green-800 focus:outline-none" />

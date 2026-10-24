@@ -1,6 +1,6 @@
 {
-  "short_name": "Qwerty Learner",
-  "name": "Qwerty Learner",
+  "short_name": "Typing",
+  "name": "MOBEI Typing",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#0b0b0c",
   "background_color": "#ffffff"
 }

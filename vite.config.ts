@@ -7,7 +7,32 @@ import path from 'node:path'
 import { visualizer } from 'rollup-plugin-visualizer'
 import Icons from 'unplugin-icons/vite'
 import { defineConfig } from 'vite'
-import type { PluginOption } from 'vite'
+import type { Plugin, PluginOption } from 'vite'
+
+/**
+ * MOBEI deployment: swap whole upstream components for our own versions in
+ * src/mobei/ at resolve time. Works for relative and '@/' imports alike and
+ * leaves the upstream files untouched, so merging upstream stays easy.
+ */
+const mobeiOverrides: Record<string, string> = {
+  'src/components/Header/index.tsx': 'src/mobei/Header.tsx',
+  'src/components/Footer/index.tsx': 'src/mobei/Footer.tsx',
+  'src/components/DonateCard/index.tsx': 'src/mobei/Hidden.tsx',
+  'src/pages/Typing/components/ResultScreen/AuthorButton.tsx': 'src/mobei/Hidden.tsx',
+}
+function mobeiOverridePlugin(): Plugin {
+  const table = new Map(Object.entries(mobeiOverrides).map(([from, to]) => [path.resolve(__dirname, from), path.resolve(__dirname, to)]))
+  return {
+    name: 'mobei-overrides',
+    enforce: 'pre',
+    async resolveId(source, importer, options) {
+      if (!importer || source.startsWith('\0')) return null
+      const resolved = await this.resolve(source, importer, { ...options, skipSelf: true })
+      if (!resolved) return null
+      return table.get(path.resolve(resolved.id.split('?')[0])) ?? null
+    },
+  }
+}
 
 // https://vitejs.dev/config/
 export default defineConfig(async ({ mode }) => {
@@ -16,6 +41,7 @@ export default defineConfig(async ({ mode }) => {
   })
   return {
     plugins: [
+      mobeiOverridePlugin(),
       react({ babel: { plugins: [jotaiDebugLabel, jotaiReactRefresh] } }),
       visualizer() as PluginOption,
       Icons({

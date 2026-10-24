@@ -1,3 +1,4 @@
+import { speakFallback, stopSpeakFallback } from '@/mobei/speechFallback'
 import { pronunciationConfigAtom } from '@/store'
 import type { PronunciationType } from '@/typings'
 import { addHowlListener } from '@/utils'
@@ -5,7 +6,7 @@ import { romajiToHiragana } from '@/utils/kana'
 import noop from '@/utils/noop'
 import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import useSound from 'use-sound'
 import type { HookOptions } from 'use-sound/dist/types'
 
@@ -53,23 +54,57 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     return noop
   }, [loop, sound])
 
+  // MOBEI deployment: remember when the Youdao audio fails, and speak with the browser instead
+  const audioFailedRef = useRef(false)
+  const fallback = useCallback(
+    () => speakFallback(word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume),
+    [word, pronunciationConfig.type, pronunciationConfig.rate, pronunciationConfig.volume],
+  )
+
   useEffect(() => {
     if (!sound) return
+    audioFailedRef.current = false
     const unListens: Array<() => void> = []
 
     unListens.push(addHowlListener(sound, 'play', () => setIsPlaying(true)))
     unListens.push(addHowlListener(sound, 'end', () => setIsPlaying(false)))
     unListens.push(addHowlListener(sound, 'pause', () => setIsPlaying(false)))
-    unListens.push(addHowlListener(sound, 'playerror', () => setIsPlaying(false)))
+    unListens.push(
+      addHowlListener(sound, 'loaderror', () => {
+        audioFailedRef.current = true
+      }),
+    )
+    unListens.push(
+      addHowlListener(sound, 'playerror', () => {
+        setIsPlaying(false)
+        audioFailedRef.current = true
+        fallback()
+      }),
+    )
 
     return () => {
       setIsPlaying(false)
       unListens.forEach((unListen) => unListen())
       ;(sound as Howl).unload()
     }
-  }, [sound])
+  }, [sound, fallback])
 
-  return { play, stop, isPlaying }
+  const playWithFallback = useCallback(
+    (...args: Parameters<typeof play>) => {
+      if (audioFailedRef.current && fallback()) return
+      play(...args)
+    },
+    [play, fallback],
+  )
+  const stopWithFallback = useCallback(
+    (...args: Parameters<typeof stop>) => {
+      stopSpeakFallback()
+      stop(...args)
+    },
+    [stop],
+  )
+
+  return { play: playWithFallback, stop: stopWithFallback, isPlaying }
 }
 
 export function usePrefetchPronunciationSound(word: string | undefined) {
