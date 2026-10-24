@@ -9,16 +9,65 @@ import vm from 'node:vm'
 
 export function loadWords(distDir) {
   const doc = fs.readFileSync(path.join(distDir, 'index.html'), 'utf8')
-  const el = (id) => ({ id, value: '', textContent: '', innerHTML: '', style: {}, dataset: {}, files: [], querySelectorAll: () => [], attributes: {}, open: false,
-    classList: { toggle() {}, add() {}, remove() {} }, listeners: {}, addEventListener() {}, showModal() {}, close() {}, click() {}, focus() {}, setAttribute() {}, setCustomValidity() {}, reportValidity() {} })
+  const el = (id) => ({
+    id,
+    value: '',
+    textContent: '',
+    innerHTML: '',
+    style: {},
+    dataset: {},
+    files: [],
+    querySelectorAll: () => [],
+    attributes: {},
+    open: false,
+    classList: { toggle() {}, add() {}, remove() {} },
+    listeners: {},
+    addEventListener() {},
+    showModal() {},
+    close() {},
+    click() {},
+    focus() {},
+    setAttribute() {},
+    setCustomValidity() {},
+    reportValidity() {},
+  })
   const elements = new Map()
-  const document = { documentElement: { dataset: {}, style: {} }, getElementById: (id) => elements.get(id) ?? (elements.set(id, el(id)), elements.get(id)),
-    querySelector: () => el('q'), querySelectorAll: () => [], createElement: () => el('c'), addEventListener() {} }
+  const document = {
+    documentElement: { dataset: {}, style: {} },
+    getElementById: (id) => elements.get(id) ?? (elements.set(id, el(id)), elements.get(id)),
+    querySelector: () => el('q'),
+    querySelectorAll: () => [],
+    createElement: () => el('c'),
+    addEventListener() {},
+  }
   const store = new Map()
-  const localStorage = { getItem: (k) => (store.has(k) ? store.get(k) : null), setItem: (k, v) => store.set(k, String(v)), removeItem: (k) => store.delete(k), key: (i) => [...store.keys()][i] ?? null, get length() { return store.size } }
-  const context = vm.createContext({ document, localStorage, console: { log() {}, warn() {}, error() {} }, confirm: () => true, setTimeout: (fn) => fn(), requestAnimationFrame: (fn) => fn(),
-    getSelection: () => null, Date, Blob, URL, navigator: { userAgent: 'node', maxTouchPoints: 0 }, matchMedia: () => ({ matches: false, addEventListener() {} }),
-    speechSynthesis: { getVoices: () => [], speak() {}, cancel() {}, onvoiceschanged: null }, SpeechSynthesisUtterance: function (t) { this.text = t } })
+  const localStorage = {
+    getItem: (k) => (store.has(k) ? store.get(k) : null),
+    setItem: (k, v) => store.set(k, String(v)),
+    removeItem: (k) => store.delete(k),
+    key: (i) => [...store.keys()][i] ?? null,
+    get length() {
+      return store.size
+    },
+  }
+  const context = vm.createContext({
+    document,
+    localStorage,
+    console: { log() {}, warn() {}, error() {} },
+    confirm: () => true,
+    setTimeout: (fn) => fn(),
+    requestAnimationFrame: (fn) => fn(),
+    getSelection: () => null,
+    Date,
+    Blob,
+    URL,
+    navigator: { userAgent: 'node', maxTouchPoints: 0 },
+    matchMedia: () => ({ matches: false, addEventListener() {} }),
+    speechSynthesis: { getVoices: () => [], speak() {}, cancel() {}, onvoiceschanged: null },
+    SpeechSynthesisUtterance: function (t) {
+      this.text = t
+    },
+  })
   const loaded = new Set()
   for (const m of doc.matchAll(/<script src="([^"]+)"><\/script>/g)) {
     if (m[1].startsWith('vendor/') || loaded.has(m[1])) continue

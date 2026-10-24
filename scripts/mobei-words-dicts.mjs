@@ -9,10 +9,10 @@
  * - US IPA from Words. Writes public/dicts/mobei-words-*.json and
  *   src/mobei/mobeiDicts.ts (the registry entries). Rerun after Words changes.
  */
+import { loadWords } from './mobei-load-words.mjs'
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { loadWords } from './mobei-load-words.mjs'
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..')
 const wordsDist = process.argv[2] || 'D:/dev/mobei-words/dist'
@@ -30,7 +30,12 @@ const raw = JSON.parse(
 )
 
 /** "/ə, eɪ/ · /ən, æn/" → "ə, eɪ" (first form only, matching the first headword variant) */
-const cleanIpa = (ipa) => String(ipa).split(/\s*·\s*/)[0].trim().replace(/^\/|\/$/g, '').trim()
+const cleanIpa = (ipa) =>
+  String(ipa)
+    .split(/\s*·\s*/)[0]
+    .trim()
+    .replace(/^\/|\/$/g, '')
+    .trim()
 /**
  * Typing needs a plain headword: "a, an" → "a", "can¹" → "can", "last 1 (final)" → "last",
  * "colour (BrE)" → "colour". Entries that still contain symbols or digits (AT&T, 911) are skipped.
@@ -39,7 +44,10 @@ function headword(word) {
   let w = String(word).trim().replace(/[’‘]/g, "'")
   w = w.replace(/\s*\(.*?\)\s*/g, ' ')
   w = w.split(/\s*[,;／/]\s*/)[0]
-  w = w.replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]/g, '').replace(/\s+\d+\s*$/, '').trim()
+  w = w
+    .replace(/[¹²³⁴⁵⁶⁷⁸⁹⁰]/g, '')
+    .replace(/\s+\d+\s*$/, '')
+    .trim()
   return /^[A-Za-z][A-Za-z' .-]*[A-Za-z.]$|^[A-Za-z]$/.test(w) ? w : null
 }
 
@@ -71,7 +79,13 @@ const groups = [
     tags: ['CEFR 分级'],
     items: raw.official.filter((x) => x.cefr === lv),
   })),
-  { id: 'mobei-words-us', name: 'Words 美国生活', description: 'MOBEI Words 美国生活专题（US Essentials），配 Words 的核心理解', tags: ['美国生活'], items: raw.us },
+  {
+    id: 'mobei-words-us',
+    name: 'Words 美国生活',
+    description: 'MOBEI Words 美国生活专题（US Essentials），配 Words 的核心理解',
+    tags: ['美国生活'],
+    items: raw.us,
+  },
 ]
 
 const registry = []
@@ -79,7 +93,17 @@ for (const g of groups) {
   const { out, skipped } = toEntries(g.items)
   const file = `${g.id}.json`
   fs.writeFileSync(path.join(root, 'public', 'dicts', file), JSON.stringify(out, null, 1) + '\n')
-  registry.push({ id: g.id, name: g.name, description: g.description, category: 'MOBEI Words', tags: g.tags, url: `/dicts/${file}`, length: out.length, language: 'en', languageCategory: 'en' })
+  registry.push({
+    id: g.id,
+    name: g.name,
+    description: g.description,
+    category: 'MOBEI Words',
+    tags: g.tags,
+    url: `/dicts/${file}`,
+    length: out.length,
+    language: 'en',
+    languageCategory: 'en',
+  })
   console.log(`${g.id}: ${out.length} words${skipped.length ? `, skipped ${skipped.length}: ${skipped.slice(0, 8).join(' | ')}` : ''}`)
 }
 

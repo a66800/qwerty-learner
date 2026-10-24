@@ -25,7 +25,8 @@ const VOICES: Record<string, { lang: string; name: string }> = {
 const ALLOWED_HOSTS = new Set(['typing.mobei.win', 'localhost', '127.0.0.1'])
 const TEXT_RE = /^[A-Za-z][A-Za-z' .-]{0,39}$/
 
-const escapeXml = (s: string) => s.replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' })[c] as string)
+const escapeXml = (s: string) =>
+  s.replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[c] as string))
 
 function fromThisSite(req: Request): boolean {
   if (req.headers.get('Sec-Fetch-Site') === 'same-origin') return true
@@ -63,7 +64,9 @@ async function tts(req: Request, env: Env, ctx: ExecutionContext): Promise<Respo
   }
 
   const voice = VOICES[voiceKey]
-  const ssml = `<speak version="1.0" xml:lang="${voice.lang}"><voice name="${voice.name}"><prosody rate="-5%">${escapeXml(word)}</prosody></voice></speak>`
+  const ssml = `<speak version="1.0" xml:lang="${voice.lang}"><voice name="${voice.name}"><prosody rate="-5%">${escapeXml(
+    word,
+  )}</prosody></voice></speak>`
   const azure = await fetch(`https://${env.AZURE_SPEECH_REGION}.tts.speech.microsoft.com/cognitiveservices/v1`, {
     method: 'POST',
     headers: {
