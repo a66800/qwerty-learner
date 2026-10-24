@@ -43,6 +43,10 @@ export default defineConfig(async ({ mode }) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),
+        // MOBEI deployment: analytics become no-ops (see src/mobei/analytics-stub.ts)
+        'mixpanel-browser': path.resolve(__dirname, 'src/mobei/analytics-stub.ts'),
+        '@vercel/analytics/react': path.resolve(__dirname, 'src/mobei/analytics-stub.ts'),
+        '@vercel/analytics': path.resolve(__dirname, 'src/mobei/analytics-stub.ts'),
       },
     },
     css: {

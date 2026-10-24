@@ -1,0 +1,13 @@
+// MOBEI deployment of Qwerty Learner at https://typing.mobei.win
+// Build: npx yarn@1.22.22 build   Deploy: npx wrangler deploy
+{
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "mobei-typing",
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./build",
+    // BrowserRouter routes (/gallery, /analysis, /error-book…) fall back to index.html
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [{ "pattern": "typing.mobei.win", "custom_domain": true }]
+}
